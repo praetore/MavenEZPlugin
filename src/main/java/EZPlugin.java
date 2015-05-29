@@ -13,9 +13,10 @@ import net.canarymod.logger.Logman;
 import net.canarymod.plugin.Plugin;
 
 /**
- * Created by darryl on 26-5-15.
+ * Created by darryl on 29-5-15.
  */
-public class EZPlugin extends Plugin implements CommandListener{
+public class EZPlugin extends Plugin implements CommandListener {
+    /* Boilerplate methods for all of our plugins */
     public static Logman logger;
 
     public EZPlugin() {
@@ -95,4 +96,5 @@ public class EZPlugin extends Plugin implements CommandListener{
                 (int)loc.getY() + ", " +
                 (int)loc.getZ();
     }
+
 }
